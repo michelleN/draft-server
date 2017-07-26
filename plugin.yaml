@@ -1,0 +1,6 @@
+name: "server"
+version: "0.1.0"
+usage: "helpers for managing draftd"
+description: "Helpers for working with in-cluster draftd"
+command: "$DRAFT_PLUGIN_DIR/bin/draftd.sh"
+# TODO: add pre-install check for Helm
