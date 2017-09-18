@@ -13,7 +13,7 @@ EOF
 }
 
 destroy() {
-  helm delete draftd --purge
+  helm delete draft --purge
 }
 
 cmd="${1:-}"
